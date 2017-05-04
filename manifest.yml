@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: EjercicioJueves04-05
+  host: EjercicioJueves04-05
+  disk_quota: 1024M
