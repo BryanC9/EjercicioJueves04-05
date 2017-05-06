@@ -7,8 +7,13 @@ body,html {
 	height: 100%;
 	margin: 0 auto;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #ffffff;
+	color: black;
 	
+}
+
+th {
+    height: 50px;
+    text-align: center;
 }
 
 a {
@@ -62,23 +67,11 @@ h1 {
 
 table {
 	table-layout: fixed;
-	width: 800px;
+	width: 45%;
 	margin: 0 auto;
 	word-wrap: break-word;
 	padding-top:10%;
-	text
 }
-
-th {
-	border-bottom: 1px solid #000;
-    text-align: center;
-}
-
-th, td {
-	text-align: left;
-	padding: 2px 20px;
-}
-
 .env-var {
 	text-align: right;
 	border-right: 1px solid #000;
@@ -93,7 +86,7 @@ pre {
 
 div.relative {
     position: absolute;
-    left: 50px;
+    left: 150px;
     top: 20px;
 }
 div.relative2 {
@@ -103,11 +96,33 @@ div.relative2 {
 }
 div.relative3 {
     position: absolute;
-    left: 550px;
+    left: 450px;
     top: 20px;
 }
 div.relative4 {
     position: absolute;
-    left: 800px;
+    left: 600px;
     top: 20px;
+}
+
+div.absolute1 {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    width: 200px;
+    height: 100px;
+}
+div.absolute2 {
+    position: absolute;
+    top: 600px;
+    right:150;
+    width: 200px;
+    height: 100px;
+}
+div.absolute3 {
+    position: absolute;
+    top: 600px;
+    right: 200px;
+    width: 200px;
+    height: 100px;
 }
